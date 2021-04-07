@@ -67,4 +67,31 @@ ul{
     padding: 0 20px;
     overflow: auto;
 }
+#showcase{
+    text-align: center;
+    background: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+#showcase h1{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+#showcase p{
+    line-height: 1.7em;
+    font-size: 20px;
 
+}
+button{
+    background-color: rgb(172, 236, 238);
+    margin: 20px;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+button:hover{
+    background-color: darkseagreen;
+}
