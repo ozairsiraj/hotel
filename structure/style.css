@@ -138,17 +138,23 @@ ul{
 
 }
 .box{
-    
     padding: 50px;
-    /* float: left; */
-    /* width:33.3px; */
-    
     text-align: center;
   }      
 .box i{
     padding-bottom: 10px;
 }
-
+.box h3{
+    text-transform: capitalize;
+}
+#main-footer{
+    padding:20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
 .btn:hover{
     background-color: darkseagreen;
     color: cyan;
