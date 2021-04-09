@@ -147,7 +147,7 @@ ul{
 .box h3{
     text-transform: capitalize;
 }
-#main-footer{
+.main-footer{
     padding:20px;
     text-align: center;
     background-color: black;
