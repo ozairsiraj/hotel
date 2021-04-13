@@ -7,16 +7,112 @@ body{
     line-height: 1.7em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+}
 a{
     text-decoration: none;
 
 }
+input{
+    font-size: 14px;
+}
+textarea{
+    font-size: 18px;
+}
+input::placeholder{
+text-transform: capitalize;
+}
+textarea::placeholder{
+    text-transform: capitalize;
+}
 h1,h2,h3{
     padding: 10px;
+    text-transform: capitalize;
 }
 ul{
     list-style: none;
 }
+p{
+    line-height: 1.7em;
+    font-size: 20px;
+    margin:10px 10px;
+    
+
+}
+.p1{
+    padding: 10px 0;
+}
+.p2{
+    padding: 20px 0;
+}
+.p3{
+    padding: 30px 0;
+}
+.blue{
+    color: blue;
+}
+.coral{
+    color: coral;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.bg-coral{
+    background-color: rgb(231, 137, 103);
+}
+.light{
+    background-color: rgb(226, 212, 212);
+}
+
+.l1{
+    font-size: 40px;
+}
+.l2{
+    font-size: 50px;
+}
+.l3{
+    font-size: 60px;
+}
+label{
+    text-transform: capitalize;
+}
+.btn {
+    display: inline-block;
+    font-size:20px;
+    
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: rgb(228, 175, 241);
+    color: rgb(125, 114, 146);
+    text-transform: capitalize;
+
+}
+.box{
+    padding: 50px;
+    text-align: center;
+  }      
+.box i{
+    padding-bottom: 10px;
+}
+.box h3{
+    text-transform: capitalize;
+}
+.btn:hover{
+    background-color: darkseagreen;
+    color: cyan;
+}
+.current{
+    background-color:darkslategrey;
+    
+}
+/* navbar */
 #nav{
     background-color: black;
     overflow: auto;
@@ -49,29 +145,13 @@ ul{
     text-align: center;
     font-size: 20px;
 }
-.blue{
-    color: blue;
-}
-.coral{
-    color: coral;
-}
-.green{
-    color: green;
-}
-.red{
-    color: red;
-}
+
 #nav li a:hover{
     background-color: khaki;
     color: black;
     
 }
-.container{
-    max-width: 1100px;
-    margin: auto;
-    padding: 0 20px;
-    overflow: auto;
-}
+/* showcase */
 #showcase{
     text-align: center;
     background: url(../img/showcase.jpg);
@@ -89,24 +169,13 @@ ul{
     
 }
 #showcase p{
-    line-height: 1.7em;
-    font-size: 20px;
-    margin:10px 10px;
+    
     color: white;
 
 }
+ 
+/* home-info */
 
-.btn {
-    display: inline-block;
-    font-size:20px;
-    
-    margin: 10px 10px;
-    padding: 10px 10px;
-    background-color: rgb(228, 175, 241);
-    color: rgb(125, 114, 146);
-    text-transform: capitalize;
-
-}
 #home-info{
     height: 400px;
 }
@@ -137,16 +206,75 @@ ul{
     line-height: 1.7em;
 
 }
-.box{
-    padding: 50px;
+/* about */
+#about{
+    height: 400px;
+    line-height: 2em;
+}
+#about .info-right{
+    float:right;
+    min-height: 100%;
+    width: 50%;
+}
+#about .info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#about .info-left{
+    width:50%;
+    min-height: 100%;
+    float: left;
+}
+/* review */
+#review{
+    
+    background-image: url(../img/test-bg.jpg);
+    padding-top:100px;
+    height: 600px;
+    line-height: 2em;
+    
+}
+#review h2{
     text-align: center;
-  }      
-.box i{
-    padding-bottom: 10px;
+    color: ivory;
+    padding-bottom: 40px;
 }
-.box h3{
-    text-transform: capitalize;
+#review .reviews{
+    padding:20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.8;
 }
+#review .reviews img{
+    width: 100px;
+    float: left;
+    margin-right: 10PX;
+    border-radius: 50%;
+    
+}
+/* contact */
+
+#contact{
+    
+    margin-bottom: 20px;
+}
+#contact .formgroup label{
+    display: block;
+    margin-bottom: 5px;
+
+}
+#contact .formgroup input,
+#contact .formgroup textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
+/* footer-aakhri niche ataa ine */
 .main-footer{
     padding:20px;
     text-align: center;
@@ -154,8 +282,4 @@ ul{
     color: white;
     font-size: 20px;
     text-transform: capitalize;
-}
-.btn:hover{
-    background-color: darkseagreen;
-    color: cyan;
 }
