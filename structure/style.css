@@ -208,12 +208,12 @@ label{
 }
 /* about */
 #about{
-    height: 400px;
+    /* height: 400px; */
     line-height: 2em;
 }
 #about .info-right{
     float:right;
-    min-height: 100%;
+    /* min-height: 100%; */
     width: 50%;
 }
 #about .info-right img{
@@ -224,15 +224,15 @@ label{
 }
 #about .info-left{
     width:50%;
-    min-height: 100%;
+    /* min-height: 100%; */
     float: left;
 }
 /* review */
 #review{
     
     background-image: url(../img/test-bg.jpg);
-    padding-top:100px;
-    height: 600px;
+    padding-top:50px;
+    /* height: 600px; */
     line-height: 2em;
     
 }

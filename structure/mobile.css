@@ -1,0 +1,104 @@
+ 
+ /* showcase */
+#showcase{
+    text-align: center;
+    background: url(../img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+#showcase h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    
+}
+#showcase p{
+    
+    color: white;
+
+}
+ #about{ 
+    /* padding: 0; */
+    line-height: 3em;
+}
+
+#about .info-right{
+    float:none;
+    
+    width: 100%;
+}
+
+#about .info-left{
+    width:100%;
+    float: none;
+    text-align: center;
+}
+#about .info-left h1{
+    text-align: center;
+    font-size: 40px;
+}
+#about .info-right img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 0;
+}
+#review{
+    
+    background-image: url(../img/test-bg.jpg);
+    /* padding-top:100px; */
+
+    line-height: 3em;
+    
+}
+#review h2{
+    text-align: center;
+    color: ivory;
+    padding: 0;
+}
+#review .reviews{
+    padding:20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#review .reviews img{
+    width: 100px;
+    float: left;
+    margin-right: 10PX;
+    border-radius: 50%;
+    
+} 
+/* home-info */
+
+#home-info{
+     height: 550px; 
+}
+#home-info h2{
+    margin: 0px 10px;
+    font-size: 35px;
+    line-height: 1.2em;
+}
+ #home-info .home-info-img{ 
+    display: none; 
+    }     
+#home-info .home-info-content{
+    background: black;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    float:right;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.home-info-content p{
+    font-size: 20px;
+    margin: 10px 10px;
+    line-height: 1.7em;
+
+}
